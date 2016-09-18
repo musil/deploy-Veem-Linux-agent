@@ -1,0 +1,6 @@
+[vmware-tools-collection-smu]
+name=vmware-tools-collecction-smu
+baseurl=http://packages.vmware.com/tools/releases/latest/rhel6/x86_64
+enabled=1
+gpgcheck=1
+gpgkey=http://packages.vmware.com/tools/keys/VMWARE-PACKAGING-GPG-RSA-KEY.pub
