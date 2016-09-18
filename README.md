@@ -1,11 +1,11 @@
 # deploy-Veem-Linux-agent
 
 
-Known issue:
+#Known issue:
 https://vpxd.wordpress.com/2016/09/07/veeam-backup-agent-for-linux-beta2-centos-7/
 once done you can check that module veeamsnap is loaded.
 
-#>  lsmod | grep veeam
+  lsmod | grep veeam
 
 veeamsnap             260620  0
 
