@@ -1,0 +1,16 @@
+# SMU CentOS-Base.repo
+
+[base]
+name=CentOS-$releasever - Base
+baseurl=ftp://FTP_SERVER/nfs_install/centos/7/os/x86_64/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=ftp://FTP_SERVER/nfs_install/centos/7/updates/x86_64/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+
